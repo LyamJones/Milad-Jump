@@ -16,6 +16,7 @@ public class LevelGenerator : MonoBehaviour {
 
 		Vector3 spawnPosition = new Vector3();
 
+		//betweet 0 and 200 platforms
 		for (int i = 0; i < numberOfPlatforms; i++)
 		{
 			spawnPosition.y += Random.Range(minY, maxY);
