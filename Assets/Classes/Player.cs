@@ -21,6 +21,7 @@ public class Player : MonoBehaviour {
 		movement = Input.GetAxis("Horizontal") * movementSpeed;
 	}
 
+	//Positie update
 	void FixedUpdate()
 	{
 		//getting vector
